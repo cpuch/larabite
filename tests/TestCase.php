@@ -2,9 +2,9 @@
 
 namespace cpuch\Larabite\Tests;
 
+use cpuch\Larabite\LarabiteServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use cpuch\Larabite\LarabiteServiceProvider;
 
 class TestCase extends Orchestra
 {

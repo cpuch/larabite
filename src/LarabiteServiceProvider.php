@@ -2,9 +2,9 @@
 
 namespace cpuch\Larabite;
 
+use cpuch\Larabite\Commands\LarabiteCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use cpuch\Larabite\Commands\LarabiteCommand;
 
 class LarabiteServiceProvider extends PackageServiceProvider
 {
